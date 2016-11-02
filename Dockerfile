@@ -3,4 +3,8 @@ MAINTAINER VCA Technology <developers@vcatechnology.com>
 
 RUN sudo pacman --noconfirm --needed -S \
   bash-bats \
-  openssh
+  openssh \
+  tar \
+  bzip2 \
+  gzip \
+  xz
