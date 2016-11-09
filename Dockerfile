@@ -7,4 +7,5 @@ RUN pacman --noconfirm --needed -S \
   tar \
   bzip2 \
   gzip \
-  xz
+  xz \
+  && pacman --noconfirm -Scc
