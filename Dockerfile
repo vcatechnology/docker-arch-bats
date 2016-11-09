@@ -1,7 +1,7 @@
-FROM vcatechnology/arch-ci:latest
+FROM vcatechnology/arch:latest
 MAINTAINER VCA Technology <developers@vcatechnology.com>
 
-RUN sudo pacman --noconfirm --needed -S \
+RUN pacman --noconfirm --needed -S \
   bash-bats \
   openssh \
   tar \
