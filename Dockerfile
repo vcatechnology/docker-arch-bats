@@ -1,10 +1,12 @@
-FROM vcatechnology/arch-ci:latest
+FROM vcatechnology/arch:latest
 MAINTAINER VCA Technology <developers@vcatechnology.com>
 
-RUN sudo pacman --noconfirm --needed -S \
+RUN pacman --noconfirm --needed -S \
+  git \
   bash-bats \
   openssh \
   tar \
   bzip2 \
   gzip \
-  xz
+  xz \
+  && pacman --noconfirm -Scc
