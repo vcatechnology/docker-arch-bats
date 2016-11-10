@@ -6,6 +6,8 @@ installs the some useful development packages.
 
 ## Packages
   - [`bash-bats`](https://www.archlinux.org/packages/community/x86_64/bash-bats/)
+  - [`shellcheck`](https://www.archlinux.org/packages/community/x86_64/shellcheck/)
+  - [`git`](https://www.archlinux.org/packages/extra/x86_64/git/)
   - [`openssh`](https://www.archlinux.org/packages/core/x86_64/openssh/)
   - [`tar`](https://www.archlinux.org/packages/core/x86_64/tar/)
   - [`bzip2`](https://www.archlinux.org/packages/core/x86_64/bzip2/)
