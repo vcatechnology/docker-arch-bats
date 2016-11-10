@@ -1,12 +1,11 @@
 FROM vcatechnology/arch:latest
 MAINTAINER VCA Technology <developers@vcatechnology.com>
 
-RUN pacman --noconfirm --needed -S \
+RUN vca-install-package \
   git \
   bash-bats \
   openssh \
   tar \
   bzip2 \
   gzip \
-  xz \
-  && pacman --noconfirm -Scc
+  xz
