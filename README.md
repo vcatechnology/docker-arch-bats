@@ -1,16 +1,11 @@
-# Arch Linux Docker CI Image
+# Arch Linux Docker BATS Image
+
+[![](https://images.microbadger.com/badges/image/vcatechnology/arch-bats.svg)](http://microbadger.com/images/vcatechnology/arch-bats "Image Layers") 
+[![](https://images.microbadger.com/badges/version/vcatechnology/arch-bats.svg)](http://microbadger.com/images/vcatechnology/arch-bats "Image Version")
+
 This container derives from
-[vcatechnology/archlinux](https://hub.docker.com/r/vcatechnology/arch) so that the
+[vcatechnology/arch](https://hub.docker.com/r/vcatechnology/arch) so that the
 image has the latest [Arch Linux](https://www.archlinux.org/) packages. It then
-installs the some useful development packages.
+installs the **B**ash **A**utomated **T**esting **S**ystem.
 
-## Packages
-  - [`bash-bats`](https://www.archlinux.org/packages/community/x86_64/bash-bats/)
-  - [`shellcheck`](https://www.archlinux.org/packages/community/x86_64/shellcheck/)
-  - [`git`](https://www.archlinux.org/packages/extra/x86_64/git/)
-  - [`openssh`](https://www.archlinux.org/packages/core/x86_64/openssh/)
-  - [`tar`](https://www.archlinux.org/packages/core/x86_64/tar/)
-  - [`bzip2`](https://www.archlinux.org/packages/core/x86_64/bzip2/)
-  - [`gzip`](https://www.archlinux.org/packages/core/x86_64/gzip/)
-  - [`xz`](https://www.archlinux.org/packages/core/x86_64/xz/)
-
+Available on Docker Hub as [vcatechnology/arch-bats](https://hub.docker.com/r/vcatechnology/arch-bats/)
