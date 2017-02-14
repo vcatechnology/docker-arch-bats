@@ -23,6 +23,7 @@ RUN vca-install-package \
   shellcheck \
   bash-bats \
   openssh \
+  rsync \
   tar \
   bzip2 \
   gzip \
